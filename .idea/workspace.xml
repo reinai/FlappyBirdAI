@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a52b17a0-a295-4bbb-91b8-9a28879cf0d8" name="Default Changelist" comment="" />
+    <list default="true" id="a52b17a0-a295-4bbb-91b8-9a28879cf0d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FlappyBird/FlappyBirdDummyAgent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlappyBird/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyGame-Learning-Environment/tests/test_ple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="297">
+              <caret line="47" selection-start-line="47" selection-end-line="50" selection-end-column="29" />
               <folding>
                 <element signature="e#135#146#0" expanded="true" />
               </folding>
@@ -22,10 +26,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FlappyBird/FlappyBirdDummyAgent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PyGame-Learning-Environment" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Projekat.py" />
+        <option value="$PROJECT_DIR$/FlappyBird/FlappyBirdDummyAgent.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="49" />
@@ -33,7 +54,9 @@
     <option name="width" value="1620" />
     <option name="height" value="920" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -46,6 +69,11 @@
             <path>
               <item name="FlappyBirdAI" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlappyBirdAI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlappyBirdAI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlappyBirdAI" type="462c0819:PsiDirectoryNode" />
+              <item name="FlappyBird" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlappyBirdAI" type="b2602c69:ProjectViewProjectNode" />
@@ -76,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in test_ple.py">
+  <component name="RunManager" selected="Python tests.Nosetests in FlappyBirdDummyAgent.py">
     <configuration name="Nosetests for test_ple.MyTestCase.test_pixelcopter" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="FlappyBirdAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,6 +118,21 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_ple.MyTestCase.test_pixelcopter&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in FlappyBirdDummyAgent.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="FlappyBirdAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlappyBird" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/FlappyBird/FlappyBirdDummyAgent.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Nosetests in test_ple.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
@@ -109,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Nosetests in FlappyBirdDummyAgent.py" />
         <item itemvalue="Python tests.Nosetests in test_ple.py" />
         <item itemvalue="Python tests.Nosetests for test_ple.MyTestCase.test_pixelcopter" />
       </list>
@@ -127,6 +171,23 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_for_test_ple_MyTestCase_test_pixelcopter - 2019.06.27 at 17h 45m 35s.xml">
+      <configuration name="Nosetests for test_ple.MyTestCase.test_pixelcopter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_ple_MyTestCase_test_pixelcopter - 2019.06.27 at 17h 45m 40s.xml">
+      <configuration name="Nosetests for test_ple.MyTestCase.test_pixelcopter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_ple_py - 2019.06.27 at 17h 45m 53s.xml">
+      <configuration name="Nosetests in test_ple.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_ple_py - 2019.06.27 at 17h 46m 45s.xml">
+      <configuration name="Nosetests in test_ple.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_ple_py - 2019.06.27 at 17h 48m 38s.xml">
+      <configuration name="Nosetests in test_ple.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
@@ -140,7 +201,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -151,13 +212,23 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Projekat.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/PyGame-Learning-Environment/tests/test_ple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="297">
+          <caret line="47" selection-start-line="47" selection-end-line="50" selection-end-column="29" />
           <folding>
             <element signature="e#135#146#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/FlappyBirdDummyAgent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
