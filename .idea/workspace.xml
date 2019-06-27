@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a52b17a0-a295-4bbb-91b8-9a28879cf0d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/FlappyBirdAI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyGame-Learning-Environment/tests/test_ple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="47" selection-start-line="47" selection-end-line="50" selection-end-column="29" />
+            <state relative-caret-position="378">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
               <folding>
                 <element signature="e#135#146#0" expanded="true" />
               </folding>
@@ -27,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlappyBird/FlappyBirdDummyAgent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -50,6 +55,7 @@
       <list>
         <option value="$PROJECT_DIR$/Projekat.py" />
         <option value="$PROJECT_DIR$/FlappyBird/FlappyBirdDummyAgent.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -75,27 +81,15 @@
               <item name="FlappyBirdAI" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlappyBirdAI" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FlappyBirdAI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlappyBirdAI" type="462c0819:PsiDirectoryNode" />
-              <item name="FlappyBird" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlappyBirdAI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlappyBirdAI" type="462c0819:PsiDirectoryNode" />
-              <item name="PyGame-Learning-Environment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlappyBirdAI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlappyBirdAI" type="462c0819:PsiDirectoryNode" />
-              <item name="PyGame-Learning-Environment" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for test_ple.MyTestCase">
+  <component name="RunManager" selected="Python tests.Nosetests in FlappyBirdDummyAgent.py">
     <configuration name="Nosetests for test_ple.MyTestCase" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="FlappyBirdAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,9 +166,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Nosetests in FlappyBirdDummyAgent.py" />
         <item itemvalue="Python tests.Nosetests for test_ple.MyTestCase" />
         <item itemvalue="Python tests.Nosetests for test_ple.MyTestCase.test_pixelcopter" />
-        <item itemvalue="Python tests.Nosetests in FlappyBirdDummyAgent.py" />
         <item itemvalue="Python tests.Nosetests in test_ple.py" />
       </list>
     </recent_temporary>
@@ -208,17 +202,20 @@
     <history-entry file="Nosetests_in_test_ple_py - 2019.06.27 at 17h 48m 38s.xml">
       <configuration name="Nosetests in test_ple.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_for_test_ple_MyTestCase_test_pixelcopter - 2019.06.27 at 18h 48m 04s.xml">
+      <configuration name="Nosetests for test_ple.MyTestCase.test_pixelcopter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_ple_MyTestCase - 2019.06.27 at 18h 48m 11s.xml">
+      <configuration name="Nosetests for test_ple.MyTestCase" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -226,29 +223,38 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Projekat.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Projekat.py" />
     <entry file="file://$PROJECT_DIR$/PyGame-Learning-Environment/tests/test_ple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="47" selection-start-line="47" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="378">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding>
             <element signature="e#135#146#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3375">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FlappyBird/FlappyBirdDummyAgent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
