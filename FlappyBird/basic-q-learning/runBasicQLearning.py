@@ -57,8 +57,8 @@ def run(number_of_episodes):
         if game_over:
             print("===========================")
             print("Episode: " + str(episode_number))
-            print("Training score: " + str(score))
-            print("Max. training score: " + str(max_score))
+            print("Score: " + str(score))
+            print("Max. score: " + str(max_score))
             print("===========================\n")
             episode_number += 1
             number_of_episodes -= 1
