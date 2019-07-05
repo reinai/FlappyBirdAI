@@ -1,15 +1,21 @@
+"""
+    File name: basicQLearningAgent.py
+    Author: Nikola Zubic
+"""
 import random
+import math
+from FlappyBird.gameInfo import *
 
-LEARNING_RATE = 0.1
+LEARNING_RATE = 0.5
 DISCOUNT_FACTOR = 0.99
 
 
 def flip_coin(p):
     r = random.random()
-    return r < p
+    return r > p
 
 
-class IllegalActionException(object):
+class IllegalActionException(BaseException):
     def __init__(self, message):
         print(message)
 
@@ -24,6 +30,7 @@ class BasicQLearningAgent(object):
         - max_q
         - compute_action_from_q_values
         - update
+        - get_state (static)
     """
 
     def __init__(self):
@@ -52,13 +59,11 @@ class BasicQLearningAgent(object):
         to stay in optimal policy Qpi* .
         So, if policy of SARSA is greedy, it becomes Q-learning.
         """
-        explored = self.is_state_action_explored(state)
 
-        if not explored:
-            if explored == (False, 0):
-                self.Q_matrix[(state, 0)] = 0
-            elif explored == (False, 1):
-                self.Q_matrix[(state, 1)] = 0
+        if (state, 0) not in self.Q_matrix:
+            self.Q_matrix[(state, 0)] = 0
+        if (state, 1) not in self.Q_matrix:
+            self.Q_matrix[(state, 1)] = 0
 
         max_q = 1
 
@@ -76,26 +81,23 @@ class BasicQLearningAgent(object):
           will return None.
         """
         try:
-            explored = self.is_state_action_explored(state)
 
-            if not explored:
-                if explored == (False, 0):
-                    self.Q_matrix[(state, 0)] = 0
-                elif explored == (False, 1):
-                    self.Q_matrix[(state, 1)] = 0
+            if (state, 0) not in self.Q_matrix:
+                self.Q_matrix[(state, 0)] = 0
+            if (state, 1) not in self.Q_matrix:
+                self.Q_matrix[(state, 1)] = 0
 
             if flip_coin(self.epsilon):
-                # We will do exploration, by selecting the random action
-                return random.randint(0, 1)
-            else:
                 # We will select action with highest Q-Value
                 if self.Q_matrix[(state, 0)] > self.Q_matrix[(state, 1)]:
                     return 0
                 else:
                     return 1
+            else:
+                # We will do exploration, by selecting the random action
+                return random.randint(0, 1)
 
         except IllegalActionException:
-            print("Illegal action exception occurred.")
             return None
 
     def update(self, state, action, next_state, reward):
@@ -112,3 +114,18 @@ class BasicQLearningAgent(object):
                   self.Q_matrix[(state, action)])
 
         self.Q_matrix[(state, action)] = self.Q_matrix[(state, action)] + LEARNING_RATE * sample
+
+    @staticmethod
+    def get_state(state):
+        """
+        Representation of state.
+        state = (agent y position, agent velocity, next pipe top y position, next pipe distance to player)
+        """
+        next_pipe_distance_to_player = math.floor(state['next_pipe_dist_to_player']/(SCREEN_WIDTH / PIXEL_DISCOUNT))
+        next_pipe_top_y = math.floor(state['next_pipe_top_y'] / (SCREEN_HEIGHT / PIXEL_DISCOUNT))
+        player_vel = math.floor(state['player_vel'] / (MAX_DROP_SPEED / PIXEL_DISCOUNT))
+        player_y = math.floor(state['player_y'] / (SCREEN_HEIGHT / PIXEL_DISCOUNT))
+
+        state = (player_y, player_vel, next_pipe_top_y, next_pipe_distance_to_player)
+
+        return state
