@@ -6,7 +6,7 @@ import random
 import math
 from FlappyBird.gameInfo import *
 
-LEARNING_RATE = 0.5
+LEARNING_RATE = 0.35
 DISCOUNT_FACTOR = 0.99
 
 
