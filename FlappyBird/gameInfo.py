@@ -15,3 +15,7 @@ So we can approximate 15 pixels that are around resulting in smaller values.
 """
 PIXEL_DISCOUNT = 15
 MAX_DROP_SPEED = 19
+MIN_VELOCITY = -8
+MAX_VELOCITY = 10
+FIRST_NON_ZERO_VELOCITY = 4
+bucket_range_per_feature = 14
