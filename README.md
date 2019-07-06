@@ -4,6 +4,8 @@
 Implementation of Flappy Bird reinforcement learning agent by using two approaches:
   * Q learning
   * Monte Carlo Q learning
+  
+  In folder [basic-q-learning](https://github.com/reinai/FlappyBirdAI/tree/master/FlappyBird/basic-q-learning) we have already trained our model with basicq_2000.txt, and in folder [monte-carlo-q-learning](https://github.com/reinai/FlappyBirdAI/tree/master/FlappyBird/monte-carlo-q-learning) with monte_2000.txt. All you have to do is runQLearning to see the results.
 
 ## Programs & libraries needed in order to run this project 
 * [PLE: A Reinforcement Learning Environment](https://pygame-learning-environment.readthedocs.io/en/latest/#) mimicking the Arcade Learning Environment interface, allowing a quick start to Reinforcement Learning in Python
@@ -15,3 +17,9 @@ Implementation of Flappy Bird reinforcement learning agent by using two approach
 
 ## Game run example
 ![Preview](https://github.com/reinai/FlappyBirdAI/blob/master/FlappyBird/ezgif-5-809f5b1ff0d3.gif)
+
+## Results after 2000 episodes
+![alt text](https://github.com/reinai/FlappyBirdAI/blob/master/FlappyBird/results/2000%20iterations/basic_q.PNG)
+Basic Q learning has still problems after 2000 episodes, sometimes getting score about 4. Training lasted about 2 minutes.
+![alt text](https://github.com/reinai/FlappyBirdAI/blob/master/FlappyBird/results/2000%20iterations/monte_carlo_q.PNG)
+Monte Carlo Q learning after 2000 episodes in which training lasted about 9 minutes has tremendously better results, averaging at about score of 80.
