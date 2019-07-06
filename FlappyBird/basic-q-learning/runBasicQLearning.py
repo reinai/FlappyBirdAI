@@ -10,7 +10,7 @@ from ple.games.flappybird import FlappyBird
 import ast
 
 basic_q_agent = BasicQLearningAgent()
-f = open("basicq_2000.txt", "r")
+f = open("basicq_150000.txt", "r")
 basic_q_agent.Q_matrix = ast.literal_eval(f.read())
 
 

@@ -36,6 +36,8 @@ def train_agent(number_of_episodes):
     results = []
     state_transition = 0
 
+    every_100th = 1
+
     while number_of_episodes > 0:
 
         # Get current state
@@ -71,20 +73,23 @@ def train_agent(number_of_episodes):
             print("Training score: " + str(training_score))
             print("Max. training score: " + str(max_training_score))
             print("===========================\n")
-            results.append((episode_number, training_score))
+            if every_100th == 100:
+                results.append((episode_number, training_score))
+                every_100th = 0
             episode_number += 1
+            every_100th += 1
             number_of_episodes -= 1
             training_score = 0
             state_transition = 0
             env.reset_game()
 
-    f = open("basicq_2000.txt", "w")
+    f = open("basicq_150000.txt", "w")
     f.write(str(basic_q_agent.Q_matrix))
     f.close()
 
-    f = open("results_2000.txt", "w")
+    f = open("results_150000.txt", "w")
     f.write(str(results))
     f.close()
 
 
-train_agent(2000)
+train_agent(150000)
