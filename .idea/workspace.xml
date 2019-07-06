@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f14c0bf-e297-4460-a756-41a60b453c20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlappyBird/basic-q-learning/simple_q_matrix.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="0f14c0bf-e297-4460-a756-41a60b453c20" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.results (1)">
+  <component name="RunManager" selected="Python.results">
     <configuration name="basicQLearningTraining" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlappyBirdAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,8 +262,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.results (1)" />
         <item itemvalue="Python.results" />
+        <item itemvalue="Python.results (1)" />
         <item itemvalue="Python.runMonteCarloQLearning" />
         <item itemvalue="Python.runBasicQLearning" />
         <item itemvalue="Python.basicQLearningTraining" />
