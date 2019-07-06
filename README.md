@@ -2,7 +2,7 @@
 
 ## About project
 Implementation of Flappy Bird reinforcement learning agent by using two approaches:
-  * Q learning
+  * Q learning (150 000 episodes, trained 7 hours)
   * Monte Carlo Q learning
   
   In folder [basic-q-learning](https://github.com/reinai/FlappyBirdAI/tree/master/FlappyBird/basic-q-learning) we have already trained our model with basicq_2000.txt, and in folder [monte-carlo-q-learning](https://github.com/reinai/FlappyBirdAI/tree/master/FlappyBird/monte-carlo-q-learning) with monte_2000.txt. All you have to do is runQLearning to see the results.
