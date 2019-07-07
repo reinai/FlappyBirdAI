@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f14c0bf-e297-4460-a756-41a60b453c20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/runMonteCarloQLearning.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/runMonteCarloQLearning.py" afterDir="false" />
-    </list>
+    <list default="true" id="0f14c0bf-e297-4460-a756-41a60b453c20" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/runMonteCarloQLearning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
+            <state relative-caret-position="468">
               <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
@@ -521,7 +519,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/runMonteCarloQLearning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
+        <state relative-caret-position="468">
           <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
