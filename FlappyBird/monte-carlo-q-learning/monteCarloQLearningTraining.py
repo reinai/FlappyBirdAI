@@ -33,7 +33,18 @@ def train_agent(number_of_episodes):
 
     state_action_reward = ()
 
+    every_100th = 1
+    results = []
+
     while number_of_episodes > 0:
+
+        if episode_number == 50000:
+            f = open("monte_50000.txt", "w")
+            f.write(str(monte_carlo_q_agent.Q_matrix))
+            f.close()
+            f = open("results_50000.txt", "w")
+            f.write(str(results))
+            f.close()
 
         # Get current state
         state = MonteCarloQLearningAgent.get_state(env.game.getGameState())
@@ -67,14 +78,21 @@ def train_agent(number_of_episodes):
             print("Training score: " + str(training_score))
             print("Max. training score: " + str(max_training_score))
             print("===========================\n")
+            if every_100th == 100:
+                results.append((episode_number, training_score))
+                every_100th = 0
             episode_number += 1
             number_of_episodes -= 1
             training_score = 0
             env.reset_game()
 """
-    f = open("monte_2000.txt", "w")
+    f = open("basicq_150000.txt", "w")
     f.write(str(monte_carlo_q_agent.Q_matrix))
+    f.close()
+
+    f = open("results_150000.txt", "w")
+    f.write(str(results))
     f.close()
 """
 
-train_agent(2000)
+train_agent(150000)

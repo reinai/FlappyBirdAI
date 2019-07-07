@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0f14c0bf-e297-4460-a756-41a60b453c20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlappyBird/basic-q-learning/basicQLearningTraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlappyBird/basic-q-learning/basicQLearningTraining.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlappyBird/basic-q-learning/runBasicQLearning.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlappyBird/basic-q-learning/runBasicQLearning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningTraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningTraining.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,32 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/basicQLearningAgent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1123">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="e#71#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/basicQLearningTraining.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/runBasicQLearning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="468">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -48,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -74,13 +54,22 @@
         <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/k.ipynb" />
         <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloSearch.py" />
         <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningAgent.py" />
-        <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/runMonteCarloQLearning.py" />
-        <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningTraining.py" />
         <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/results.py" />
         <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/basicQLearningAgent.py" />
-        <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/results.py" />
-        <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/runBasicQLearning.py" />
         <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/basicQLearningTraining.py" />
+        <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/results.py" />
+        <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningTraining.py" />
+        <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/results_150000.txt" />
+        <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monte_150000.txt" />
+        <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monte_50000.txt" />
+        <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/results_50000.txt" />
+        <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/train.py" />
+        <option value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/runMonteCarloQLearning.py" />
+        <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_2000_results_speed_of_light.txt" />
+        <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_150000_results_hard.txt" />
+        <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_150000_results_medium.txt" />
+        <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_150000_results_easy.txt" />
+        <option value="$PROJECT_DIR$/FlappyBird/basic-q-learning/runBasicQLearning.py" />
       </list>
     </option>
   </component>
@@ -145,8 +134,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.results (1)">
-    <configuration name="basicQLearningTraining" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.runBasicQLearning">
+    <configuration name="monteCarloQLearningTraining" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlappyBirdAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlappyBird/basic-q-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlappyBird/basic-q-learning/basicQLearningTraining.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningTraining.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,27 +169,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlappyBird/basic-q-learning/results.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="results" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlappyBirdAI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/results.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,13 +219,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlappyBirdAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.results (1)" />
         <item itemvalue="Python.runBasicQLearning" />
-        <item itemvalue="Python.basicQLearningTraining" />
-        <item itemvalue="Python.results" />
         <item itemvalue="Python.runMonteCarloQLearning" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.monteCarloQLearningTraining" />
+        <item itemvalue="Python.results (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +268,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16859852" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16859852" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -287,7 +276,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.29035753" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.2654388" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -340,28 +329,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningTraining.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="74" selection-start-line="74" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="e#79#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/basicq_2000.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningAgent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="165" selection-end-column="20" />
-          <folding>
-            <element signature="e#77#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monte_2000.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -371,23 +340,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/results_2000.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/runMonteCarloQLearning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#59#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/results.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -399,30 +351,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/results_150000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/basicq_150000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+          <folding>
+            <element signature="e#59#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/basicQLearningAgent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1123">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="445">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
           <folding>
             <element signature="e#71#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/runBasicQLearning.py">
+    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningAgent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+          <folding>
+            <element signature="e#77#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/results_150000.txt">
+    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monte_50000.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/results_50000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/results_150000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monte_150000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/runMonteCarloQLearning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/monteCarloQLearningTraining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#79#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/basicQLearningTraining.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="198">
+          <caret line="85" column="7" lean-forward="true" selection-start-line="85" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/monte-carlo-q-learning/train.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_results_2000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_150000_results_hard.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_2000_results_easy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_2000_results_hard.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_2000_results_medium.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_2000_results_speed_of_light.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_150000_results_easy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_150000_results_medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/agent_150000_results_speed_of_light.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird/basic-q-learning/runBasicQLearning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>

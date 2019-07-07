@@ -13,9 +13,12 @@ basic_q_agent = BasicQLearningAgent()
 f = open("basicq_150000.txt", "r")
 basic_q_agent.Q_matrix = ast.literal_eval(f.read())
 
+#f = open("agent_150000_results_easy.txt", "w")
+#f.write("Basic Q learning agent after 150 000 episodes. Easy mode (pipe_gap = 150)\n")
+
 
 def run(number_of_episodes):
-    game = FlappyBird()
+    game = FlappyBird(pipe_gap=150)
 
     rewards = {
         "positive": 1.0,
@@ -60,10 +63,11 @@ def run(number_of_episodes):
             print("Score: " + str(score))
             print("Max. score: " + str(max_score))
             print("===========================\n")
+            # f.write("Score: " + str(score) + "|Max. score: " + str(max_score) + "\n")
             episode_number += 1
             number_of_episodes -= 1
             score = 0
             env.reset_game()
 
 
-run(15)
+run(20)
