@@ -24,5 +24,5 @@ Basic Q learning has still problems after 2000 episodes, sometimes getting score
 ![alt text](https://github.com/reinai/FlappyBirdAI/blob/master/FlappyBird/results/2000%20iterations/monte_carlo_q.PNG)
 Monte Carlo Q learning after 2000 episodes in which training lasted about 9 minutes has tremendously better results, averaging at about score of 80.
 
-## Project summary
+## Q learning and Monte Carlo Q learning
 ![alt text](https://github.com/reinai/FlappyBirdAI/blob/master/FlappyBird/poster_image.PNG)
